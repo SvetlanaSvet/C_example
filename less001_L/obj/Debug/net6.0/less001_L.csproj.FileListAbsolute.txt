@@ -1,0 +1,15 @@
+C:\Work_GB\C_example\less001_L\bin\Debug\net6.0\less001_L.exe
+C:\Work_GB\C_example\less001_L\bin\Debug\net6.0\less001_L.deps.json
+C:\Work_GB\C_example\less001_L\bin\Debug\net6.0\less001_L.runtimeconfig.json
+C:\Work_GB\C_example\less001_L\bin\Debug\net6.0\less001_L.dll
+C:\Work_GB\C_example\less001_L\bin\Debug\net6.0\less001_L.pdb
+C:\Work_GB\C_example\less001_L\obj\Debug\net6.0\less001_L.csproj.AssemblyReference.cache
+C:\Work_GB\C_example\less001_L\obj\Debug\net6.0\less001_L.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work_GB\C_example\less001_L\obj\Debug\net6.0\less001_L.AssemblyInfoInputs.cache
+C:\Work_GB\C_example\less001_L\obj\Debug\net6.0\less001_L.AssemblyInfo.cs
+C:\Work_GB\C_example\less001_L\obj\Debug\net6.0\less001_L.csproj.CoreCompileInputs.cache
+C:\Work_GB\C_example\less001_L\obj\Debug\net6.0\less001_L.dll
+C:\Work_GB\C_example\less001_L\obj\Debug\net6.0\refint\less001_L.dll
+C:\Work_GB\C_example\less001_L\obj\Debug\net6.0\less001_L.pdb
+C:\Work_GB\C_example\less001_L\obj\Debug\net6.0\less001_L.genruntimeconfig.cache
+C:\Work_GB\C_example\less001_L\obj\Debug\net6.0\ref\less001_L.dll
