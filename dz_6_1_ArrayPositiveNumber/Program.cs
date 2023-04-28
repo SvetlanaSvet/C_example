@@ -1,29 +1,29 @@
 ﻿// Пользователь вводит с клавиатуры M чисел.
 // Посчитайте, сколько чисел больше 0 ввёл пользователь.
 
-Console.Write("Введите количество элементов массива: ");
-int lengthM = Convert.ToInt32(Console.ReadLine());
-int[] arrayM = new int[lengthM];
-
-void FillArrayM(int lengthM)
+void FillArrayM(int[] array)
 {
-    for (int i = 0; i < lengthM; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         Console.WriteLine($"Введите {i + 1} элемент массива: ");
-        arrayM[i] = Convert.ToInt32(Console.ReadLine());
+        array[i] = Convert.ToInt32(Console.ReadLine());
     }
 }
 
-int CountPositiveNumber(int[] arrayM)
+int CountPositiveNumber(int[] array)
 {
     int count = 0;
-    for (int i = 0; i < arrayM.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        if (arrayM[i] > 0) count++;
+        if (array[i] > 0) count++;
 
     }
     return count;
 }
 
-FillArrayM(lengthM);
+Console.Write("Введите количество элементов массива: ");
+int lengthM = Convert.ToInt32(Console.ReadLine());
+int[] arrayM = new int[lengthM];
+
+FillArrayM(arrayM);
 Console.WriteLine($"Чисел больше нуля: {CountPositiveNumber(arrayM)}");
