@@ -1,11 +1,11 @@
-﻿int UserWriteNumber(string msg)
+﻿int UserWriteNumber(string msg) //запрос пользователю задать длину массива
 {
     Console.Write(msg);
     int number = Convert.ToInt32(Console.ReadLine());
     return number;
 }
 
-string[] ArrayStrCreate(int arrayLenght)
+string[] ArrayStrCreate(int arrayLenght) //создаем строковый одномерный массив
 {
     string[] array = new string[arrayLenght];
     for (int i = 0; i < arrayLenght; i++)
@@ -16,7 +16,7 @@ string[] ArrayStrCreate(int arrayLenght)
     return array;
 }
 
-void ArrayStrPrint(string[] array)
+void ArrayStrPrint(string[] array) //печать массива
 {
     for (int i = 0; i < array.Length; i++)
     {
@@ -26,7 +26,7 @@ void ArrayStrPrint(string[] array)
 }
 
 
-string[] ArraySelect(string[] array1)
+string[] ArraySelect(string[] array1) //новый массив
 {
     string[] array2 = new string[array1.Length];
     int count = 0;
